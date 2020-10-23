@@ -4,6 +4,7 @@ import homeSection from "./home"
 const myBody = document.getElementById("my-body");
 const divContent = document.getElementById("content");
 
+// Creating Website Logo
 const setIcon = () => {
     const myIcon = new Image();
     myIcon.src = Icon;
@@ -11,6 +12,7 @@ const setIcon = () => {
     myBody.prepend(myIcon);
 }
 
+// Setting the Options
 const setTable = () => {
     const ulContent = "<li><button>Home</button></li><li><button>Menu</button></li><li><button>Contact</button></li>";
     const myUl = document.createElement('ul');
@@ -19,6 +21,7 @@ const setTable = () => {
     divContent.prepend(myUl);  
 }
 
+// Set Div That Will Display the Dinamic Sections
 const setSections = () => {
     const sections = document.createElement('div');
     sections.id = "sections";

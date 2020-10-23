@@ -21,7 +21,7 @@ body {
     min-height: 60vh;
     width: 70%;
     border-radius: 10px;
-    font-family: 'myFont', sans-serif;
+    padding: 15px;
 }
 
 #buttons {
@@ -39,8 +39,15 @@ button {
 
 h1 {
     margin: 0px;
+    text-align: center;
+    font-family: 'myFont', sans-serif;
 }
 
 li {
  list-style: none;
 }
+
+#bakery {
+    display: block;
+    margin: auto;
+  }
