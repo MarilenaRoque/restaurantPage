@@ -1,5 +1,5 @@
 body {
-    background-image: url("../src/images/backery-backgroud2.jpg");
+    background-image: url("../images/backery-backgroud2.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -8,10 +8,10 @@ body {
   padding: 25px;
 }
 
-#section {
+#sections {
     background-color: whitesmoke;
-    min-height: 60%;
-    width: 60%;
+    min-height: 60vh;
+    width: 70%;
     border-radius: 10px;
 }
 
@@ -22,7 +22,10 @@ body {
 }
 
 button {
-    border-bottom: 0px;
+    border: solid 1px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
 }
 
 p {
