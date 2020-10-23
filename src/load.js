@@ -1,4 +1,5 @@
 import Icon from "./images/bakery-icon.svg"
+import homeSection from "./home"
 
 const myBody = document.getElementById("my-body");
 const divContent = document.getElementById("content");
@@ -28,6 +29,7 @@ const load = () => {
     setIcon();
     setTable();
     setSections();
+    homeSection();
 }
 
 

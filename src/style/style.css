@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../Fonts/my-font.woff2') format('woff2'),
+         url('../Fonts/my-font.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
 body {
     background-image: url("../images/backery-backgroud2.jpg");
   background-position: center;
@@ -13,6 +21,7 @@ body {
     min-height: 60vh;
     width: 70%;
     border-radius: 10px;
+    font-family: 'myFont', sans-serif;
 }
 
 #buttons {
@@ -28,7 +37,7 @@ button {
     padding: 8px;
 }
 
-p {
+h1 {
     margin: 0px;
 }
 
