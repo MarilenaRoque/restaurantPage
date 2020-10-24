@@ -6,6 +6,15 @@ import contactSection from "./contact"
 
 load();
 
-contactSection();
-homeSection();
-menuSection();
+// Event Listeners for Switch between Sections
+document.addEventListener('click', (e) => {
+    if (e.target && e.target.id === 'b-home') {
+      homeSection();
+    } else if (e.target && e.target.id === 'b-menu') {
+      menuSection();
+    } else if (e.target && e.target.id === 'b-contact') {
+      contactSection();
+    } 
+});
+
+

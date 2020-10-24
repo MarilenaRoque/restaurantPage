@@ -14,7 +14,7 @@ const setIcon = () => {
 
 // Setting the Options
 const setTable = () => {
-    const ulContent = "<li><button>Home</button></li><li><button>Menu</button></li><li><button>Contact</button></li>";
+    const ulContent = "<li><button id='b-home'>Home</button></li><li><button id='b-menu'>Menu</button></li><li><button id='b-contact'>Contact</button></li>";
     const myUl = document.createElement('ul');
     myUl.innerHTML = ulContent;
     myUl.id = "buttons";

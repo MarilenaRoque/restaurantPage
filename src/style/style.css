@@ -42,6 +42,7 @@ button {
     font-weight: bold;
     padding: 8px;
     margin-right: 2px;
+    background-color: gray;
 }
 
 h1 {
