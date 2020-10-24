@@ -7,7 +7,7 @@ const homeSection = () => {
     const divSections = document.getElementById("sections");
 
     //Reset the Section
-    homesection.innerHTML = "";
+    divSections.innerHTML = "";
 
     //Set H1
     const homeHeading = document.createElement('h1');
