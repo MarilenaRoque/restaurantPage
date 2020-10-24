@@ -3,8 +3,6 @@ import cafe from "./images/cafe.jpg"
 const contactText = "<p> 23653 Calabasas Road<br>Calabasas, CA 91302\n<br><strong>Phone:</strong> 818.591.2223<br><strong>Fax:</strong> 818.591.2828<br><strong>Email:</strong> contactL@roquesbakery.com<br></p>"
 
 const contactSection = () => {
-    const divSections = document.getElementById("sections");
-    divSections.innerHTML = "";
 
     const divContact = document.createElement('div');
 
@@ -25,8 +23,7 @@ const contactSection = () => {
     contactParagraph.innerHTML = contactText;
     divContact.append(contactParagraph);
 
-
-    divSections.append(divContact);
+    return divContact;
 
 }
 

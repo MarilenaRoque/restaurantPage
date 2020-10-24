@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+button:focus{
+    outline: none;
+}
+
 body {
   background-image: url("../images/backery-backgroud2.jpg");
   background-position: center;
@@ -42,7 +46,7 @@ button {
     font-weight: bold;
     padding: 8px;
     margin-right: 2px;
-    background-color: gray;
+    background-color:white;
 }
 
 h1 {

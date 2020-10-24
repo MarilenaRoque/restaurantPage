@@ -1,6 +1,4 @@
 const menuSection = () => {
-    const divSections = document.getElementById("sections");
-    divSections.innerHTML = "";
 
     // Set new Div
     const divMenu = document.createElement('div');
@@ -25,7 +23,7 @@ const menuSection = () => {
 
     divMenu.append(divFlex);
 
-    divSections.append(divMenu);
+    return divMenu;
 
 }
 
