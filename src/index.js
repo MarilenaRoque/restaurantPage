@@ -4,4 +4,4 @@ import homeSection from "./home"
 import menuSection from "./menu"
 
 load();
-// menuSection();
+menuSection();

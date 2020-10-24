@@ -50,4 +50,17 @@ li {
 #bakery {
     display: block;
     margin: auto;
-  }
+}
+
+#div-flex {
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+#div-flex li, h2 {
+    text-align: center;
+    margin: 20px;
+}
+

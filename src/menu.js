@@ -6,21 +6,29 @@ const menuSection = () => {
 
     // Set new Div
     const divMenu = document.createElement('div');
-    divMenu.id = "div-menu";
+
+    //Set H1
+    const menuHeading = document.createElement('h1');
+    menuHeading.innerText = "/-----       Menu        -----/";
+    divMenu.prepend(menuHeading);
+
+    const divFlex = document.createElement('div');
+    divFlex.id = "div-flex";
+
 
     const breakfast = document.createElement('ul');
-    const ulContent = "<li>YOGURT BERRY PARFAIT</li><li>OVERNIGHT OATS & CHIA</li><li>MIXED BERRIES</li>";
+    let ulContent = "<h2> Breakfast </h2><li>YOGURT BERRY PARFAIT </li><li>OVERNIGHT OATS & CHIA</li><li>CLASSIC</li><li>MARCHIO</li>";
     breakfast.innerHTML = ulContent;
-    divMenu.prepend(breakfast);
+    divFlex.append(breakfast);
+
+    const daily = document.createElement('ul');
+    ulContent = "<h2> Daily Pastries </h2><li>CORNETTO</li><li>SPECORINO</li><li>CORNETTO DI CIOCCOLATO</li><li>CIAMBELLONE</li>";
+    daily.innerHTML = ulContent;
+    divFlex.append(daily);
+
+    divMenu.append(divFlex);
 
     divSections.append(divMenu);
-
-
-    // const ulContent = "<li></li>";
-    // const myUl = document.createElement('ul');
-    // myUl.innerHTML = ulContent;
-    // myUl.id = "buttons";
-    // divContent.prepend(myUl);
 
 }
 
