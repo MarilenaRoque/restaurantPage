@@ -1,17 +1,14 @@
 @font-face {
-    font-family: 'MyFont';
-    src: url('../Fonts/my-font.woff2') format('woff2'),
-         url('../Fonts/my-font.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
+  font-family: 'MyFont';
+  src:
+    url('../Fonts/my-font.woff2') format('woff2'),
+    url('../Fonts/my-font.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
 }
 
 * {
-    box-sizing: border-box;
-}
-
-button:focus{
-    outline: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -21,58 +18,62 @@ body {
   width: 100%;
   min-height: 100vh;
   padding: 25px;
-  margin: 0px;
+  margin: 0;
 }
 
 #sections {
-    background-color: whitesmoke;
-    min-height: 60vh;
-    width: 70%;
-    border-radius: 10px;
-    padding: 15px;
+  background-color: whitesmoke;
+  min-height: 60vh;
+  width: 70%;
+  border-radius: 10px;
+  padding: 15px;
 }
 
 #buttons {
-    display: flex;
-    margin-bottom: 0px;
-    padding-left: 5px;
-
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 5px;
 }
 
 button {
-    border-top-right-radius: 10px;
-    border: solid 1px;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 8px;
-    margin-right: 2px;
-    background-color:white;
+  border-top-right-radius: 10px;
+  border: solid 1px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px;
+  margin-right: 2px;
+  background-color: white;
+}
+
+button:focus {
+  outline: none;
 }
 
 h1 {
-    margin: 0px;
-    text-align: center;
-    font-family: 'myFont', sans-serif;
+  margin: 0;
+  text-align: center;
+  font-family: 'myFont', sans-serif;
 }
 
 li {
- list-style: none;
+  list-style: none;
 }
 
-#bakery, #cafe {
-    display: block;
-    margin: auto;
+#bakery,
+#cafe {
+  display: block;
+  margin: auto;
 }
 
 #cafe { margin-top: 35px; }
 
 #div-flex {
-    display:flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
-#div-flex li, h2 {
-    text-align: center;
-    margin: 15px;
+#div-flex li,
+h2 {
+  text-align: center;
+  margin: 15px;
 }
-
