@@ -7,11 +7,13 @@ import contactSection from './contact';
 
 load();
 
+
+// Getting Div Sections where the elements will be appended
 const divSections = document.getElementById('sections');
 
-
+// Set Section with the element returned
 const setSection = (section) => {
-  divSections.innerHTML = '';
+  divSections.innerHTML = ''; // reset div Section
   divSections.append(section);
 };
 
@@ -29,4 +31,5 @@ document.addEventListener('click', (e) => {
   }
 });
 
+// Set home in the first load
 setSection(homeSection());
